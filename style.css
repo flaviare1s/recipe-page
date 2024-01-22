@@ -20,7 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 53%;
     height: 100%;
     margin: auto;
     
@@ -51,7 +51,7 @@ h2 {
     font-family: 'Young Serif', serif;
     font-weight: 400;
     color: hsl(14, 45%, 36%);
-    padding: 20px 0px 0px 0px;
+    padding: 20px 0px 20px 0px;
 }
 
 h3 {
@@ -74,7 +74,7 @@ p {
 }
 
 .ingredients, .instructions {
-    border-bottom: 1px solid hsl(30, 10%, 34%);
+    border-bottom: 1px solid hsl(30, 18%, 87%);
     padding-bottom: 20px;
 }
 
@@ -90,7 +90,6 @@ p {
 ul {
     list-style-position: inside;
     line-height: 30px;
-    padding-top: 10px;
 }
 
 ol li {
@@ -101,6 +100,10 @@ ol li {
 
 .header p {
     padding: 20px 0px;
+}
+
+.bb {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
 }
 
 .attribution {
