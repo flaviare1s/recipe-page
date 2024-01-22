@@ -63,6 +63,10 @@ p {
     text-align: justify;
 }
 
+.header p {
+    padding: 20px 0px;
+}
+
 .preparation {
     background-color: hsl(330, 100%, 98%);
     padding: 20px;
@@ -97,22 +101,14 @@ ol li {
     line-height: 30px;
 }
 
-
-.header p {
-    padding: 20px 0px;
+.table {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .bb {
     border-bottom: 1px solid hsl(30, 18%, 87%);
-}
-
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
 }
 
 .semibold {
@@ -125,6 +121,16 @@ ol li {
 
 .nutmeg {
     color: hsl(14, 45%, 36%);
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
 
 @media screen and (max-width:500px) {
