@@ -78,6 +78,15 @@ p {
     padding-bottom: 20px;
 }
 
+.ingredients ul li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.instructions li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
 ul {
     list-style-position: inside;
     line-height: 30px;
