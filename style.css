@@ -103,8 +103,16 @@ ol li {
 
 .table {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
+}
+
+.table p {
+    padding: 10px;
+}
+
+.half-container {
+    width: 50%;
 }
 
 .bb {
