@@ -51,6 +51,7 @@ h2 {
     font-family: 'Young Serif', serif;
     font-weight: 400;
     color: hsl(14, 45%, 36%);
+    padding: 20px 0px;
 }
 
 h3 {
@@ -65,11 +66,13 @@ p {
 .preparation {
     background-color: hsl(330, 100%, 98%);
     padding: 20px;
+    border-radius: 10px;
 }
 
 ul {
     list-style-position: inside;
     line-height: 30px;
+    padding-top: 10px;
 }
 
 ol li {
