@@ -6,12 +6,30 @@
 font-family: 'Outfit', sans-serif;
 */
 
+* {
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-weight: 400;
+    background-color: hsl(30, 54%, 90%);
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
 }
 
-
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+.semibold {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 700;
 }
