@@ -59,7 +59,10 @@ body {
     font-weight: 700;
 }
 
-@media screen {
-    
+@media screen and (max-width:375px) {
+    .container {
+        width: 100vw;
+        background-color: hsl(0, 0%, 100%);
+    }
 }
 
