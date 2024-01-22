@@ -23,15 +23,23 @@ body {
     flex-direction: column;
     align-items: center;
     width: 50%;
+    height: 100%;
     margin: auto;
-    border: 1px solid;
+    
 }
 
 .card {
     background-color: hsl(0, 0%, 100%);
     width: 90%;
     align-items: center;
-    margin: auto;
+    margin: 60px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.image {
+    width: 100%;
+    border-radius: 10px;
 }
 
 .attribution {
@@ -50,3 +58,8 @@ body {
 .bold {
     font-weight: 700;
 }
+
+@media screen {
+    
+}
+
